@@ -2,10 +2,12 @@ www.youtube.com###container > .ytd-enforcement-message-view-model.style-scope
 www.youtube.com##tp-yt-paper-dialog.ytd-popup-container.style-scope >
 .ytd-popup-container.style-scope
 www.youtube.com##.opened
+
 www.youtube.com dialog
 youtube.com##.ytd-popup-container
 youtube.com##.ytd-consent-bump-lightbox
 youtube.com##.abierto
+
 youtube.com js(set,
 ytInitialPlayerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer.isVisible,
 false)
@@ -20,5 +22,6 @@ youtube.com js(json-prune,
 [].response.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer)
 youtube.com.abierto
 youtube.com.consent-bump
+
 youtube.com js(json-prune,
 topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer)
